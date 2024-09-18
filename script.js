@@ -11,3 +11,10 @@ let cities=["delhi","pune","mumbai"]
 for(let city of cities){
     console.log(city);
 }
+let mark =[85,97,44,37,76,60];
+let sum=0;
+for (let val of mark) {
+    sum += val;
+}
+let avg= sum/marks.length; 
+console.log(`avg marks o the class= ${avg}`);
