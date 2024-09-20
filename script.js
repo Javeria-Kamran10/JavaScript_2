@@ -1,4 +1,4 @@
-function myFunction() {
-    console.log("welcome to my page");
+function myFunction(msg) {
+    console.log(msg);
 }
-myFunction();
+myFunction(I Love JS);
